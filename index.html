@@ -172,9 +172,9 @@ list-style: none;
     -moz-appearance: button;
     appearance: button;
     text-indent: 0.2em;
-    background:white url(select-arrow.png) no-repeat; /*images/select-arrow.png*/
-    background-size:25px 15px;
-    background-position: right center;
+    /*background:white url(select-arrow.png) no-repeat; images/select-arrow.png*/
+/*     background-size:25px 15px;
+    background-position: right center; */
     border-radius: 0px;
     /*border: 5px solid black;*/
     height: 70px;
@@ -190,9 +190,9 @@ list-style: none;
     -moz-appearance: button;
     appearance: button;
     text-indent: 0.2em;
-    background:white url(select-arrow.png) no-repeat; /*images/select-arrow.png*/
-    background-size:25px 15px;
-    background-position: right center;
+    /*background:white url(select-arrow.png) no-repeat; /*images/select-arrow.png*/
+/*     background-size:25px 15px;
+    background-position: right center; */
     border-radius: 0px;
     /*border: 5px solid black;*/
     height: 70px;
@@ -356,8 +356,8 @@ function addListener(element, type, callback) {
 					<div class="area1">
 						<div id="menu">
 							<ul>
-								<li><a href="about.html" onclick=”ga(‘send’, ‘event’, ‘Inbound’, ‘click’, 'about');”>About</a></li>
-								<li><a href="https://github.com/bitlaw-jp/the-constitution-of-japan" onclick=”ga(‘send’, ‘event’, ‘Outbound’, ‘click’, 'top-github');”>GitHub</a></li>
+								<li><a href="about.html" target=”_blank” onclick=”ga(‘send’, ‘event’, ‘Inbound’, ‘click’, 'about');”>About</a></li>
+								<li><a href="https://github.com/bitlaw-jp/the-constitution-of-japan" target=”_blank” onclick=”ga(‘send’, ‘event’, ‘Outbound’, ‘click’, 'top-github');”>GitHub</a></li>
 								<!-- <li></li> -->
 							</ul>
 						</div>
@@ -432,7 +432,7 @@ function addListener(element, type, callback) {
   								<div class="scroll-box">
   									<div id="result"></div>
   								</div>
-  								<a href="http://law.e-gov.go.jp/htmldata/S21/S21KE000.html" id="original"><img class="link" src="original.png"></a>
+  								<a href="https://laws.e-gov.go.jp/law/321CONSTITUTION" id="original" target=”_blank”><img class="link" src="original.png"></a>
   							</div>
 						</div>
 						<img class="top" src="top.png" style="padding-top:60px;">
